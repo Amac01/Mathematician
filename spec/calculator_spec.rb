@@ -10,4 +10,9 @@ describe 'calc' do
     calc = Calc.new
     expect(calc.multiply(1, 2)).to equal 2
   end
+  it "squares num " do
+    calc = Calc.new
+    expect(calc.square(3)).to equal 9
+  end
+
 end
